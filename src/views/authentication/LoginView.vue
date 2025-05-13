@@ -66,7 +66,7 @@
       await api.get('/user')
   
       setTimeout(() => {
-        router.push('/scorm-cursos')
+        router.push('/')
         }, 300)
 
     } catch (err: any) {
